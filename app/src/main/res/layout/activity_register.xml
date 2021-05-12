@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="30dp"
+                android:background="#fafafa"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="55dp"
+                tools:layout_editor_absoluteY="156dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="#CDDDE4"
+                    android:gravity="center"
+                    android:text="Enter your details"
+                    android:textColor="#1b88ba"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/fname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:text="First name"
+                    android:textColor="#1b88ba"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/fname1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox"
+                    android:drawableLeft="@drawable/ic_outline_account_circle_24"
+                    android:drawablePadding="5dp"
+                    android:ems="10"
+                    android:fontFamily="cursive"
+                    android:hint=" Joe"
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/lname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Last name"
+                    android:textColor="#1b88ba"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/lname1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox"
+                    android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+                    android:drawablePadding="5dp"
+                    android:ems="10"
+                    android:fontFamily="cursive"
+                    android:hint=" King"
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/u_mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Email"
+                    android:textColor="#1b88ba"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/u_mail1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox"
+                    android:drawableLeft="@drawable/ic_baseline_email_24"
+                    android:drawablePadding="5dp"
+                    android:ems="10"
+                    android:fontFamily="cursive"
+                    android:hint=" joeking@gmail.com"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:id="@+id/passw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Password"
+                    android:textColor="#1b88ba"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/passw1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox"
+                    android:drawableLeft="@drawable/ic_outline_lock_24"
+                    android:drawablePadding="5dp"
+                    android:ems="10"
+                    android:fontFamily="cursive"
+                    android:hint="********"
+                    android:inputType="textPassword" />
+
+                <TextView
+                    android:id="@+id/cpass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Confirm Password"
+                    android:textColor="#1b88ba"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/cpass1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox"
+                    android:drawableLeft="@drawable/ic_baseline_lock_24"
+                    android:drawablePadding="5dp"
+                    android:ems="10"
+                    android:fontFamily="cursive"
+                    android:hint=" ********"
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/batch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Batch"
+                    android:textColor="#1b88ba"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/batch1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox"
+                    android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+                    android:drawablePadding="5dp"
+                    android:ems="10"
+                    android:fontFamily="cursive"
+                    android:hint=" Select a year "
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/dept"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Department"
+                    android:textColor="#1b88ba"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/dept1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox"
+                    android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+                    android:drawablePadding="5dp"
+                    android:ems="10"
+                    android:fontFamily="cursive"
+                    android:hint=" Department"
+                    android:inputType="textPersonName" />
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="@color/purple_100"
+                    android:text="Submit" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
