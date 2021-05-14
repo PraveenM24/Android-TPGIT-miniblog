@@ -23,7 +23,7 @@ public class Home_page extends AppCompatActivity {
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Home_page.this,"hieee",Toast.LENGTH_SHORT).show();
+                Toast.makeText(Home_page.this,"Button Clicked",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -83,7 +83,7 @@ public class Home_page extends AppCompatActivity {
 
 
 
-   public static void redirectActivity(Activity activity,Class aclass) {
+    public static void redirectActivity(Activity activity,Class aclass) {
         Intent i = new Intent(activity,aclass);
         i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         activity.startActivity(i);

@@ -7,16 +7,16 @@
     android:layout_height="match_parent"
     tools:context=".Home_page">
 
-  <android.support.design.widget.FloatingActionButton
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_gravity="end|bottom"
-      android:layout_margin="16dp"
-      android:src="@drawable/ic_baseline_textsms_24"
-      android:backgroundTint="@android:color/holo_blue_light"
-      app:fabSize="normal"
-      app:elevation="6dp"
-      android:id="@+id/fab"
-       />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_baseline_chat_24"
+        android:backgroundTint="@android:color/holo_blue_light"
+        app:fabSize="normal"
+        app:elevation="6dp"
+        android:id="@+id/fab"
+        />
 
 </android.support.design.widget.CoordinatorLayout>

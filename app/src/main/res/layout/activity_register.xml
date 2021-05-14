@@ -61,8 +61,6 @@
                     android:drawableLeft="@drawable/ic_outline_account_circle_24"
                     android:drawablePadding="5dp"
                     android:ems="10"
-                    android:fontFamily="cursive"
-                    android:hint=" Joe"
                     android:inputType="textPersonName" />
 
                 <TextView
@@ -86,8 +84,6 @@
                     android:drawableLeft="@drawable/ic_baseline_account_circle_24"
                     android:drawablePadding="5dp"
                     android:ems="10"
-                    android:fontFamily="cursive"
-                    android:hint=" King"
                     android:inputType="textPersonName" />
 
                 <TextView
@@ -111,8 +107,6 @@
                     android:drawableLeft="@drawable/ic_baseline_email_24"
                     android:drawablePadding="5dp"
                     android:ems="10"
-                    android:fontFamily="cursive"
-                    android:hint=" joeking@gmail.com"
                     android:inputType="textEmailAddress" />
 
                 <TextView
@@ -136,8 +130,6 @@
                     android:drawableLeft="@drawable/ic_outline_lock_24"
                     android:drawablePadding="5dp"
                     android:ems="10"
-                    android:fontFamily="cursive"
-                    android:hint="********"
                     android:inputType="textPassword" />
 
                 <TextView
@@ -161,8 +153,6 @@
                     android:drawableLeft="@drawable/ic_baseline_lock_24"
                     android:drawablePadding="5dp"
                     android:ems="10"
-                    android:fontFamily="cursive"
-                    android:hint=" ********"
                     android:inputType="textPersonName" />
 
                 <TextView
@@ -186,8 +176,6 @@
                     android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
                     android:drawablePadding="5dp"
                     android:ems="10"
-                    android:fontFamily="cursive"
-                    android:hint=" Select a year "
                     android:inputType="textPersonName" />
 
                 <TextView
@@ -211,8 +199,6 @@
                     android:drawableLeft="@drawable/ic_baseline_menu_book_24"
                     android:drawablePadding="5dp"
                     android:ems="10"
-                    android:fontFamily="cursive"
-                    android:hint=" Department"
                     android:inputType="textPersonName" />
 
                 <Button

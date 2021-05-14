@@ -33,7 +33,7 @@
             tools:layout_editor_absoluteY="30dp" />
 
         <include
-            layout="@layout/fab"
+            layout="@layout/fab"/>
 
 
 
