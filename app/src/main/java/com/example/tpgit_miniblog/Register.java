@@ -47,17 +47,18 @@ public class Register extends AppCompatActivity {
                 .baseUrl("https://tpgitminiblog.herokuapp.com/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
-        RetrofitAPI retrofitAPI = retrofit.create(RetrofitAPI.class);
-        DataModal modal = new DataModal(firstname, lastname, email, password, batch, department);
-        Call<DataModal> call = retrofitAPI.createPost(modal);
-        call.enqueue(new Callback<DataModal>() {
+        RetrofitPostAPI retrofitAPI = retrofit.create(RetrofitPostAPI.class);
+        PostUserData modal = new PostUserData(firstname, lastname, email, password, batch, department);
+        Call<PostUserData> call = retrofitAPI.createPost(modal);
+        call.enqueue(new Callback<PostUserData>() {
             @Override
-            public void onResponse(Call<DataModal> call, Response<DataModal> response) {
-                Toast.makeText(Register.this,"Data Posted",Toast.LENGTH_SHORT).show();
+            public void onResponse(Call<PostUserData> call, Response<PostUserData> response) {
+                Intent i = new Intent(Register.this,MainActivity.class);
+                startActivity(i);
             }
 
             @Override
-            public void onFailure(Call<DataModal> call, Throwable t) {
+            public void onFailure(Call<PostUserData> call, Throwable t) {
                 Toast.makeText(Register.this,"Error",Toast.LENGTH_SHORT).show();
             }
         });

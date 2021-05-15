@@ -4,7 +4,8 @@ import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.POST;
 
-public interface RetrofitAPI {
+public interface RetrofitPostAPI {
+
     @POST("register")
-    Call<DataModal> createPost(@Body DataModal dataModal);
+    Call<PostUserData> createPost(@Body PostUserData postUserData);
 }

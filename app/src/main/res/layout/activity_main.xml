@@ -50,8 +50,6 @@
             android:drawableLeft="@drawable/ic_baseline_email_24"
             android:drawablePadding="5dp"
             android:ems="10"
-            android:hint=" joeking@gmail.com"
-            android:fontFamily="cursive"
             android:inputType="textEmailAddress" />
 
         <TextView
@@ -75,8 +73,6 @@
             android:drawableLeft="@drawable/ic_baseline_lock_24"
             android:drawablePadding="5dp"
             android:ems="10"
-            android:hint=" ********"
-            android:fontFamily="cursive"
             android:inputType="textPassword" />
 
         <Button
@@ -106,7 +102,7 @@
                     android:layout_margin="20dp"
                     android:text="New user?"
                     android:textColor="#1b88ba"
-                    android:textStyle="bold|italic" />
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/forgot"
@@ -116,7 +112,7 @@
                     android:layout_margin="20dp"
                     android:text="Forgot password"
                     android:textColor="#1b88ba"
-                    android:textStyle="bold|italic" />
+                    android:textStyle="bold" />
 
             </RelativeLayout>
 

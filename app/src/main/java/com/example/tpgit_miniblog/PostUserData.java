@@ -1,6 +1,6 @@
 package com.example.tpgit_miniblog;
 
-public class DataModal {
+public class PostUserData {
 
     private String firstname;
     private String lastname;
@@ -9,7 +9,7 @@ public class DataModal {
     private String batch;
     private String department;
 
-    public DataModal(String firstname, String lastname, String email, String password, String batch, String department) {
+    public PostUserData(String firstname, String lastname, String email, String password, String batch, String department) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.email = email;
