@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout"
+    android:background="#BFE5E4"
     tools:context=".Home_page">
 
     <LinearLayout
@@ -26,6 +27,7 @@
             android:drawableLeft="@drawable/ic_emoji"
             android:drawableRight="@drawable/ic_sharp_send_24"
             android:hint="   write Something..."
+            android:backgroundTint="@color/white"
             android:paddingBottom="30dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"

@@ -13,7 +13,7 @@
         android:layout_gravity="end|bottom"
         android:layout_margin="16dp"
         android:src="@drawable/ic_baseline_chat_24"
-        android:backgroundTint="@android:color/holo_blue_light"
+        android:backgroundTint="#1DA6A3"
         app:fabSize="normal"
         app:elevation="6dp"
         android:id="@+id/fab"
