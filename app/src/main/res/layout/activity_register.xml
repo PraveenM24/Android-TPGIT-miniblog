@@ -9,13 +9,20 @@
     android:background="#BFE5E4"
     android:orientation="vertical">
 
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter your details"
-        android:fontFamily="@font/Sanchez_Regular"
+        android:fontFamily="@font/sanchez_regular"
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
         android:textColor="@color/black"
@@ -23,18 +30,18 @@
 
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/fname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="50dp"
         android:text="Firstname:"
-        android:fontFamily="@font/CormorantGaramond_Bold"
+        android:fontFamily="@font/cormorant_garamond_bold"
         android:textColor="@color/black"
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress3"
+        android:id="@+id/fname1"
         android:layout_width="299dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -43,18 +50,18 @@
         android:layout_marginLeft="50dp"/>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/lname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lastname:"
-        android:fontFamily="@font/CormorantGaramond_Bold"
+        android:fontFamily="@font/cormorant_garamond_bold"
         android:textSize="20sp"
         android:textColor="@color/black"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="30dp"/>
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/lname1"
         android:layout_width="331dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -63,18 +70,18 @@
         android:layout_marginLeft="50dp"/>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/u_passw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email:"
-        android:fontFamily="@font/CormorantGaramond_Bold"
+        android:fontFamily="@font/cormorant_garamond_bold"
         android:textSize="20sp"
         android:textColor="@color/black"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="30dp"/>
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/u_mail1"
         android:layout_width="331dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -86,14 +93,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Password"
-        android:fontFamily="@font/CormorantGaramond_Bold"
+        android:fontFamily="@font/cormorant_garamond_bold"
         android:textSize="20sp"
         android:textColor="@color/black"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="30dp"/>
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/passw1"
         android:layout_width="331dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -102,18 +109,18 @@
         android:layout_marginLeft="50dp"/>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/c_passw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Confirm Password:"
-        android:fontFamily="@font/CormorantGaramond_Bold"
+        android:fontFamily="@font/cormorant_garamond_bold"
         android:textSize="20sp"
         android:textColor="@color/black"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="30dp"/>
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/c_passw1"
         android:layout_width="331dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -122,18 +129,18 @@
         android:layout_marginLeft="50dp"/>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/batch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Batch:"
-        android:fontFamily="@font/CormorantGaramond_Bold"
+        android:fontFamily="@font/cormorant_garamond_bold"
         android:textSize="20sp"
         android:textColor="@color/black"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="30dp"/>
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/batch1"
         android:layout_width="331dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -141,18 +148,18 @@
         android:inputType="textPersonName"
         android:layout_marginLeft="50dp"/>
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/dept"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Department"
-        android:fontFamily="@font/CormorantGaramond_Bold"
+        android:fontFamily="@font/cormorant_garamond_bold"
         android:textSize="20sp"
         android:textColor="@color/black"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="30dp"/>
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/dept1"
         android:layout_width="331dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -160,37 +167,17 @@
         android:inputType="textPersonName"
         android:layout_marginLeft="50dp"/>
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Lastname:"
-        android:fontFamily="@font/CormorantGaramond_Bold"
-        android:textSize="20sp"
-        android:textColor="@color/black"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="30dp"/>
-
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="331dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:drawableLeft="@drawable/ic_baseline_menu_book_24"
-        android:inputType="textPersonName"
-        android:layout_marginLeft="50dp"/>
-
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Register"
-        android:fontFamily="@font/CormorantGaramond_Bold"
+        android:fontFamily="@font/cormorant_garamond_bold"
         android:background="#1DA6A3"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"/>
+        android:layout_margin="50dp"/>
+    </LinearLayout>
+</ScrollView>
 
 
 
